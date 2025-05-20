@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f7f8;
+    padding: 20px;
+  }
+  .container {
+    max-width: 700px;
+    margin: auto;
+    background: white;
+    padding: 20px 30px 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 6px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  textarea {
+    resize: vertical;
+    height: 80px;
+  }
+  button {
+    margin-top: 20px;
+    background: #0070f3;
+    color: white;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  button:hover {
+    background: #0051c3;
+  }
+  .add-btn {
+    background: #28a745;
+    margin: 10px 0 20px 0;
+    width: auto;
+    padding: 8px 15px;
+  }
+  .section-group {
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 6px;
+    position: relative;
+  }
+  .remove-btn {
+    position: absolute;
+    top: 60px;
+    right: 6px;
+    background: #dc3545;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 0 6px;
+  }
+  #preview {
+    margin-top: 30px;
+    padding: 15px;
+    background: #e9ecef;
+    border-radius: 6px;
+    white-space: pre-wrap;
+    font-family: monospace;
+    max-height: 400px;
+    overflow-y: auto;
+  }
+  #profilePreview {
+    display: block;
+    margin: 10px auto;
+    max-width: 120px;
+    border-radius: 50%;
+    border: 2px solid #0070f3;
+  }
